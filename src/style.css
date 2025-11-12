@@ -3,3 +3,28 @@
 body{
     background: white;
 }
+
+.box{
+height:300px;
+}
+
+.card{
+  height:100%;
+  font-size: 60px;
+}
+
+#newPalo
+{
+  margin-bottom:auto;
+}
+#newPaloInv
+{
+  margin-top:auto;
+ align-self: flex-end; 
+ transform: rotate(180deg);
+}
+
+#newNum
+{
+ text-align: center; 
+}
