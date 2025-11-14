@@ -26,7 +26,9 @@ const paloSeleccionado = randomValue(palos);
 
 const newPalo = document.createElement('div')
 newPalo.id = 'newPalo'
-newPalo.innerHTML= paloSeleccionado
+newPalo.classList.add("palo");        
+newPalo.innerHTML= paloSeleccionado;
+newPalo.dataset.palo = newPalo.innerHTML;
 document.querySelector('.card').appendChild(newPalo);
 
 const newNum = document.createElement('div')
@@ -36,7 +38,9 @@ document.querySelector('.card').appendChild(newNum);
 
 const newPaloInvertido = document.createElement('div')
 newPaloInvertido.id = 'newPaloInv'
+newPaloInvertido.classList.add("palo");
 newPaloInvertido.innerHTML= paloSeleccionado
+newPaloInvertido.dataset.palo = newPaloInvertido.innerHTML;
 document.querySelector('.card').appendChild(newPaloInvertido);
 
 //console.log(randomValue(palos))

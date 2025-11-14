@@ -1,7 +1,7 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
 }
 
 .box{
@@ -24,7 +24,20 @@ height:300px;
  transform: rotate(180deg);
 }
 
+
+
 #newNum
 {
  text-align: center; 
+}
+
+
+.palo[data-palo="♥"],
+.palo[data-palo="♦"]{  
+  color: red;
+}
+
+.palo[data-palo="♠"],
+.palo[data-palo="♣"]{
+  color: black;
 }
